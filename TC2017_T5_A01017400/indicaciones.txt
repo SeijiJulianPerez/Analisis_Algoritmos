@@ -1,0 +1,20 @@
+Las indicaciones que se presentan a continuación son para la ejecución de archivos en Qt:
+
+Antes que nada, se necesita contar con un ordenador con SO Linux instalado (se recomienda debian), 
+contar con Qt Creator (se instala con el paquete qt-creator) o en su defecto el paquete qt-sdk junto con el paquete cmake
+y finalmente, conocer el funcionamiento de la terminal en Linux.
+
+
+Para ejecutar el programa existen dos maneras:
+
+- Primera manera de ejecutar el programa, en la aplicación Qt Creator (GUI)
+1. Se debe de abrir el archivo geo.pro para cargar el proyecto en el programa.
+2. Una vez realizado lo anterior hacer click en el botón que dice “Run”.
+
+- Segunda manera de ejecutar el programa, en la terminal:
+1. Usar el comando cd para acceder al directorio donde se ubican los archivos “”.cpp, “”.h y “”.pro.
+2. Usar el comando ls para enlistar los archivos existentes en el directorio donde se esta ubicado.
+2.1. En caso de no encontrar un archivo Makefile ejecutar el comando qmake geo.pro
+3.	Una vez realizada alguna de las opciones del punto 2 ejecutar el comando make.
+4.	Finalmente, ejecutar el comando ./geo. 
+
